@@ -1,6 +1,6 @@
 # Ryan's Zen Mode
 
-A small macOS tool to reclaim my attention.
+A small tool to reclaim my attention - providing a global focus mode across macOS apps.
 
 My screen is always full of things asking for it: other windows, notification badges, the Menu Bar clock, the Dock, a scenic wallpaper. Zen Mode is one hotkey that silences all of it. The window I'm working in glides to the center of the screen and stretches to full height, and everything else — Menu Bar and Dock included — fades to black. Press the hotkey again (or `Esc`) and everything returns exactly where it was. It's like full-screen mode, except your window keeps its natural width — more like a spotlight than a takeover.
 
