@@ -8,15 +8,11 @@ It's a [Hammerspoon](https://www.hammerspoon.org/) script, not an app, and it wo
 
 Read more about how this came together on [my blog](https://cabeen.io/blog/posts/2026-07-11-zen-mode.html).
 
-## Screenshots
+## Demo
 
-**Before:** a typical desktop, with the active window off-center and other app windows, the wallpaper, the Menu Bar, and the Dock all competing for attention.
+A busy desktop — other app windows, the wallpaper, the Menu Bar, and the Dock all competing for attention — until one keystroke centers the focused window and fades everything else to black. It works the same in a terminal, a browser, or any other app:
 
-![Desktop before enabling Zen Mode](screenshots/before.jpg)
-
-**After:** with Zen Mode enabled, the window is centered and maximized to full height, and everything else fades into darkness.
-
-![Desktop after enabling Zen Mode](screenshots/after.jpg)
+![Zen Mode toggling on and off across a terminal and a browser window](screenshots/demo.gif)
 
 ## Features
 
