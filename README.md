@@ -1,8 +1,12 @@
 # Ryan's Zen Mode
 
-A lightweight, native-feeling [Hammerspoon](https://www.hammerspoon.org/) script that gives **every Mac app** a distraction-free "Zen Mode."
+A small macOS tool to reclaim my attention.
 
-Unlike the focus modes built into individual editors, this works system-wide: press one hotkey and whatever window is active — terminal, code editor, browser, PDF reader, anything — is centered on screen and stretched to full height, while the rest of your desktop, including the macOS Menu Bar and Dock, fades into darkness. Press it again (or hit `Esc`) and your window snaps back exactly where it was.
+My screen is always full of things asking for it: other windows, notification badges, the Menu Bar clock, the Dock, a scenic wallpaper. Zen Mode is one hotkey that silences all of it. The window I'm working in glides to the center of the screen and stretches to full height, and everything else — Menu Bar and Dock included — fades to black. Press the hotkey again (or `Esc`) and everything returns exactly where it was. It's like full-screen mode, except your window keeps its natural width — more like a spotlight than a takeover.
+
+It's a [Hammerspoon](https://www.hammerspoon.org/) script, not an app, and it works on **every Mac app**: unlike the zen modes built into individual editors, the same keystroke works in your terminal, your browser, a PDF reader, or anything else with a window.
+
+Read more about how this came together on [my blog](https://cabeen.io/blog/posts/2026-07-11-zen-mode.html).
 
 ## Screenshots
 
