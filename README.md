@@ -124,6 +124,7 @@ To use a different hotkey, change the modifiers and key in the `hs.hotkey.bind({
 
 ## TODO
 
+* **Multi-window focus.** Some workflows need two or three apps in the spotlight at once — the overlay is a single canvas, so punching additional cutouts is straightforward; the open question is how you select the windows. Two ideas, which compose: while Zen Mode is active, `Cmd+Tab` *adds* the next app's window to the spotlight instead of switching away; and *named sets* defined in the config (e.g. terminal + browser), each bound to its own hotkey, for combinations you use every day.
 * **Graceful `Cmd+Tab` app cycling.** Today, switching apps while Zen Mode is active leaves the overlay parked around the original window. The idea: intercept app switches and hand the zen treatment to the newly focused window — animate the previous window back to its place, glide the new one into the spotlight, and keep the backdrop up the whole time. This touches app-watching, per-window state, and transition choreography, so it's deliberately out of scope for now to keep the script small and readable.
 
 ## Author
