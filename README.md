@@ -20,8 +20,11 @@ Then add this to `~/.hammerspoon/init.lua`:
 ```lua
 hs.loadSpoon("FocusWindow")
 
+hs.loadSpoon("FocusWindow")
+spoon.FocusWindow:start()
 spoon.FocusWindow:bindHotkeys({
-    toggle = { { "alt", "cmd" }, "z" },
+    toggle = {{"alt", "cmd"}, "z"},
+    follow = {{"ctrl", "alt", "cmd"}, "z"},
 })
 ```
 
